@@ -6,6 +6,7 @@ import Scheme.Core
 
 import Prelude hiding (lookup)
 import qualified Data.HashMap.Strict as H (HashMap, insert, lookup, empty, fromList, union)
+import Control.Monad
 import Control.Monad.State
 import Control.Monad.Except
 
