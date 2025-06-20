@@ -15,6 +15,8 @@ import Data.Foldable
 
 --- ### Helper functions for lifting and lowering
 
+tag3 = 52968
+
 lowerBool :: Val -> Bool
 lowerBool (Boolean False) = False
 lowerBool _ = True
